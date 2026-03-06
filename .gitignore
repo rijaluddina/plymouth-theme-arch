@@ -1,0 +1,24 @@
+# build artifacts
+*.pkg.tar.zst
+*.pkg.tar.xz
+*.pkg.tar.gz
+
+# source archive
+*.tar
+*.tar.gz
+*.tar.xz
+
+# makepkg
+src/
+pkg/
+
+# checksum file
+*.sig
+
+# editor files
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
